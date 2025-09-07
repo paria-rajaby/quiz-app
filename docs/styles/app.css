@@ -416,15 +416,15 @@
 @layer base {
   @font-face {
     font-family: "vazir Bold";
-    src: url(fonts/Vazirmatn-Bold.woff2);
+    src: url(../fonts/Vazirmatn-Bold.woff2);
   }
   @font-face {
     font-family: "vazir Light";
-    src: url(fonts/Vazirmatn-Light.woff2);
+    src: url(../fonts/Vazirmatn-Light.woff2);
   }
   @font-face {
     font-family: "vazir Regular";
-    src: url(fonts/Vazirmatn-Regular.woff2);
+    src: url(../fonts/Vazirmatn-Regular.woff2);
   }
 }
 @property --tw-space-y-reverse {
