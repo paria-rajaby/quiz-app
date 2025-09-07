@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme{
+    --shadow-normal: 0 1px 10px  rgba(255, 255, 255, 1); 
+
+    --font-VazirBold : "vazir Bold";
+    --font-VazirLight : "vazir Light";
+    --font-VazirRegular : "vazir Regular";
+    
+}
+
+
+@layer base{
+    @font-face {
+      font-family: "vazir Bold" ;
+      src: url(fonts/Vazirmatn-Bold.woff2);
+    }
+    @font-face {
+      font-family: "vazir Light" ;
+      src: url(fonts/Vazirmatn-Light.woff2);
+    }
+    @font-face {
+      font-family: "vazir Regular" ;
+      src: url(fonts/Vazirmatn-Regular.woff2);
+    }
+   
+  }

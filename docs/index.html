@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body class="font-VazirRegular bg-zinc-200 flex items-center justify-center h-screen">
+    <div class="fixed top-0 left-0 right-0 py-5 px-10 bg-white">
+        <div class="flex items-center justify-between">
+            <span class="font-VazirBold text-4xl text-indigo-900">کوییز آنلاین</span>
+            <span id="time" class="text-2xl text-orange-400">12:00</span>
+        </div>
+    </div>
+
+    <div class="bg-white">
+       <div id="quiz-page" class="py-10 px-20 space-y-8">
+        <h1 class="question text-center font-VazirBold text-2xl text-indigo-900"></h1>
+     
+
+        <form class="answer-wrapper space-y-3 text-indigo-900">  
+            <!--data loded from js -->
+        </form>
+
+        <div class="flex items-center justify-end gap-2">
+            <button id="prev-btn" class="bg-gray-400 text-orange-300 py-1 px-2 rounded-xl outline-0">سوال قبلی</button>
+            <button id="next-btn" class="bg-orange-400 text-white py-1 px-2 rounded-xl outline-0">سوال بعدی</button>
+        </div>
+       
+       </div>
+       <!-- quiz result -->
+        <div id="result-page" class="hidden flex-col items-center py-10 px-20 space-y-8">
+          <span class="font-VazirBold text-2xl text-indigo-900">اتمام ازمون</span>
+        <span id="final-score" class="text-xl text-indigo-900">نمره ازمون شما 10 از 100 می باشد</span>
+        <button id="return-to-quiz" class="bg-orange-400 text-white py-1 px-2 rounded-xl outline-0">بازگشت به ازمون</button>
+        </div>
+    </div>
+    <script src="scripts/app.js"></script>
+</body>
+</html>
